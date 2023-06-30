@@ -4,7 +4,7 @@
     "sourceRoot": "packages/mikro/src",
     "targets": {
         "package": {
-            "command": "NX_CLOUD=true nx package-lib mikro"
+            "command": "nx package-lib mikro"
         },
         "package-lib": {
             "executor": "@nrwl/rollup:rollup",

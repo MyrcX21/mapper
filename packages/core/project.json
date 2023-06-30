@@ -5,7 +5,7 @@
     "projectType": "library",
     "targets": {
         "package": {
-            "command": "NX_CLOUD=true nx package-lib core"
+            "command": "nx package-lib core"
         },
         "package-lib": {
             "executor": "@nrwl/rollup:rollup",

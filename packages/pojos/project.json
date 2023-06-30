@@ -4,7 +4,7 @@
     "sourceRoot": "packages/pojos/src",
     "targets": {
         "package": {
-            "command": "NX_CLOUD=true nx package-lib pojos"
+            "command": "nx package-lib pojos"
         },
         "package-lib": {
             "executor": "@nrwl/rollup:rollup",

@@ -4,7 +4,7 @@
     "sourceRoot": "packages/classes/mapped-types/src",
     "targets": {
         "package": {
-            "command": "NX_CLOUD=true nx package-lib classes-mapped-types"
+            "command": "nx package-lib classes-mapped-types"
         },
         "package-lib": {
             "executor": "@nrwl/rollup:rollup",
